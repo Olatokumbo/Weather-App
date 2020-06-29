@@ -1,0 +1,49 @@
+.container{
+    margin: 4rem 0 !important;
+}
+
+.content{
+    display: flex !important;
+    height: -webkit-fill-available !important;
+    justify-content: center;
+    align-items: center !important;
+}
+.card{
+    width: 30rem !important;
+    height: 15rem !important;
+    background-color: #e2dedbad !important;
+    border-radius: 23px !important;
+    margin-bottom: 3rem !important;
+}
+.contain{
+    display: contents;
+}
+.left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: -webkit-fill-available;
+    flex-direction: column;
+}
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    width: -webkit-fill-available;
+    flex-direction: column;
+}
+
+.cityIcon{
+    height: 8rem;
+    width: auto;
+}
+@media only screen and (max-width: 600px){
+.content{
+    flex-direction: column;
+}
+.card {
+    width: 18rem !important;
+    height: 26rem !important;
+}
+}

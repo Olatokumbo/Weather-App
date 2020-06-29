@@ -1,0 +1,7 @@
+.form{
+    display: flex !important;
+    align-items: center !important;
+}
+.input{
+    margin-right: 1rem !important;
+}
